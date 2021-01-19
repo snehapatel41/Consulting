@@ -1,0 +1,162 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{background: #fff; font-family: 'Poppins', sans-serif; font-size: 16px; color: #676767}
+p{color: #676767}
+.headerbg {position: absolute; top: 0; z-index: 9999; width: 100%; left: 0; right: 0;}
+.bannerbg{padding: 0; margin: 0; position: relative; width: 100%}
+.bannerimg{width: 100%; height: 100%; }
+.bannerimg img{width: 100%;}
+.bannerbg:after{background: rgba(0,25,76,0.8); position: absolute; top: 0; height: 100%; width: 100%; content: '';}
+.banner-content{display: flex;justify-content: center; align-items: center; flex-direction: column; position: absolute; z-index: 99; left: 0; top: 0; bottom: 0; right: 0;}
+.banner-content h2{font-size: 60px; color: #fff; text-align: center; line-height: 80px; margin-bottom: 20px;}
+.banner-content p{color: #fff; line-height: 26px; text-align: center}
+.banner-content p span{color: #ff841b; text-transform: uppercase; letter-spacing: 8px;}
+.nav-link{color: #fff; text-transform: uppercase; font-size: 14px; font-weight: 500; padding-left: 24px !important; padding-right: 24px !important;}
+.navbar-toggler i{color: #fff; font-size: 33px;}
+.header-menu-align{display: flex; justify-content: flex-end; align-items: flex-end;}
+/* Common css */
+/* Button Css */
+.orangbtn{background: #ff841b; color: #fff; text-transform: uppercase; border-radius: 3px; border: 0; padding: 10px 28px; margin-top: 15px; font-weight: 500;}
+/* Button Css */
+/* Title Css */
+.title h2{font-size: 50px; font-weight: 500; color: #001a53;}
+.title h2 span{width: 100%; font-size: 22px; color: #676767; text-transform: uppercase; display: flex;}
+.white-font{color: #fff !important}
+.white-color h2, .white-color h2 span, .white-color p{color: #fff}
+.white-color h2 {margin-bottom: 30px}
+.orange-color{color: #ff841b !important;}
+.black-color h2, .black-color p{color: #000 !important}
+/* Title Css */
+
+/* Space Css */
+.topbottom-space{padding: 100px 0}
+/* Space Css */
+
+/* Content css */
+.center-content{width: 100%; text-align: center; display: flex; flex-direction: column}
+.center-content h3{font-size: 22px; font-weight: 500; color: #001a53; display: flex; justify-content: center; align-items: center; margin-bottom: 3px;}
+.center-content p{font-weight: 400; display: flex;  justify-content: center; align-items: center}
+.center-content p span{color: #9b9b9b;}
+.icon{display: flex; justify-content: center; margin-bottom: 10px;}
+.icon i{font-size: 55px; color: #ff841b;}
+.icons{display: flex;}
+.icons i{font-size: 30px; color: #ff841b;}
+/* Content css */
+
+/* Common css */
+.whatwebg{width: 100%; background: url("../images/whatwebg.jpg") no-repeat top center; background-size: cover; padding: 100px 0;}
+.whatwe-content{background:#f2f2f2; padding: 50px 50px 30px; float: left; width: 100%; margin-left: 8.333%}
+.whatwe-list{width: 100%; padding:0; margin: 0; float: left;}
+.whatwe-list ul{list-style: none; padding: 0; bottom: 0;}
+.whatwe-list ul li{width: 50%; float: left; padding-top: 20px;}
+.whatwe-list ul li div{display: flex; width: 100%; justify-content: flex-start; align-items: flex-start;}
+.whatwe-list ul li div .icon{width: 80px; display: flex;}
+.whatwe-list ul li div .icon i{font-size: 55px; color: #ff841b;}
+.whatwe-list ul li div .content{width: calc(100% - 165px); justify-content: flex-start; align-items: flex-start; flex-direction: column}
+.whatwe-list ul li div .content h3{font-size: 22px; font-weight: 500; color: #001a53; display: flex;}
+.whatwe-list ul li div .content p{font-weight: 400; display: flex;}
+/* Our Team Css */
+/* Carousel base class */
+.carousel {margin-bottom: 0rem; margin-top: 1rem;}
+.carousel-caption {bottom: inherit; z-index: 10; right: 0; left: 0}
+.ourteam .carousel-item {min-height: 40rem; height: 100%}
+.carousel-item > img {position: absolute;top: 0; left: 0; min-width: 100%;}
+.ourteam .slide-img {width: 100%; height: 365px; background-size: cover}
+.slide-img img{width: 100%; height: 100%;}
+.slider-content{text-align: center; padding-top: 43px}
+.slider-content h3{font-size: 22px; font-weight: 500; color: #001a53; display: flex; justify-content: center; align-items: center; margin-bottom: 3px;}
+.slider-content p{font-weight: 400; display: flex;  justify-content: center; align-items: center}
+.slider-content p span{color: #9b9b9b;}
+.carousel-indicators li {background: #b2b2b2; border-bottom: 0; border-top: 0;}
+.carousel-indicators .active{background: #ff841b;}
+/* Our Team Css */
+/* Our Work Css */
+.ourworkbg{background: url("../images/ourworkbg.jpg") no-repeat top center; width: 100%; height: 100%; background-size: cover; display: flex; position: relative; padding-bottom: 150px;}
+.ourworkbg:after{background: rgba(0,25,76,0.8); position: absolute; top: 0; height: 100%; width: 100%; content: '';}
+.ourworkcontent{position: relative; z-index: 999;}
+.ourworkmissionbg{background: #fbfbfb; box-shadow: 0 10px 10px rgba(0,0,0,.2); border: 1px solid #eaeaea; position: relative;z-index: 9999;top: -110px; display: flex}
+.visionbg{background: #fbfbfb url("../images/visionbg.png") no-repeat center right; border-right: 1px solid #e0e0e0; display: flex; justify-content: center; align-items: center; padding: 40px;}
+.missionbg{display: flex; justify-content: center; align-items: center; padding: 40px;}
+
+/* Our team 2 part */
+.ourteam2 .carousel-item {min-height: 46rem; height: 100%}
+.ourteam2.slide-img {width: 100%; height: 462px; background-size: cover}
+/* Our team 2 part */
+
+/* Quote Part */
+.quotebg{background:url("../images/quotebg.jpg") no-repeat top center; width: 100%; height: 100%; background-size: cover; display: flex; position: relative;}
+.quotebg:after{background: rgba(0,25,76,0.8); position: absolute; top: 0; height: 100%; width: 100%; content: '';}
+.quotecontent{position: relative; z-index: 999; display:flex; justify-content: center; align-items: center}
+
+/* Testimonial part */
+.testimonial .slide-img img{ width: 100%; height: 100%; border: 17px solid #eaeaea; border-radius: 100%;}
+.testimonial .carousel-item {min-height: 24rem; height: 100%}
+.testimonial .slider-content{text-align: left}
+.testimonial .slider-content h3{font-size: 22px; font-weight: 500; color: #001a53; display: flex; justify-content: flex-start; align-items:flex-start; margin-bottom: 3px;}
+.testimonial .slider-content p{display: flex; justify-content: flex-start; align-items:flex-start;}
+.testimonial .carousel-indicators{margin-left: -21%; margin-right: 0}
+
+/* Client Counter */
+.clientcounter-bg{background:url("../images/counter.jpg") no-repeat top center; width: 100%; height: 100%; background-size: cover; display: flex; position: relative;}
+.clientcounter-bg:after{background: rgba(0,25,76,0.8); position: absolute; top: 0; height: 100%; width: 100%; content: '';}
+.clientcounter-content{position: relative; z-index: 999; display: flex}
+.client-content{display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center}
+.client-content h3{font-size: 50px;}
+/* contact Part */
+.contactbg{background: #fafafa; display: flex; width: 100%; height: 100%}
+.textfiled{background: #fff; border-radius: 2px; padding: 8px 10px; height:54px; border:1px solid #eaeaea;}
+.textfiled::placeholder{color: #c3c3c3}
+.textarea{background: #fff; border-radius: 2px; padding: 8px 10px; height:182px !important; border:1px solid #eaeaea;}
+.textarea::placeholder{color: #c3c3c3}
+.contact-details{margin-bottom: 20px;}
+.contact-details h4{font-size: 16px; color: #001a53; font-weight: 600;}
+.contact-details p a{color: #676767; text-decoration: none; }
+.contact-details p a:hover{color: #ff841b}
+.contact-details .socialbg{display: flex; justify-content: space-between; align-items: center}
+
+/* Footer Part */
+.footer-bg{background:url("../images/footerbg.jpg") no-repeat top center; width: 100%; height: 100%; background-size: cover; display: flex; position: relative;}
+.footer-bg:after{background: rgba(0,25,76,0.8); position: absolute; top: 0; height: 100%; width: 100%; content: '';}
+.footer-content{position: relative; z-index: 999; width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column}
+.footerlogo{padding: 0 0 37px}
+.footer-menu{display: flex; justify-content: center; align-items: center; width: 100%; padding-bottom: 37px;}
+.footer-menu ul{list-style: none; padding: 0; margin:0; display: flex; justify-content: space-between; align-items: center; width: calc(100% - 200px)}
+.footer-menu ul li{padding: 0 ; margin: 0;}
+.footer-menu ul li a{color: #c6c6c6;}
+.copytext p{color: #c6c6c6;}
+.copytext p a{color: #ff841b;}
+
+@media screen and (max-width:1160px){
+	.whatwe-content{margin-left: 0}
+	.nav-link{padding-left: 17px !important; padding-right: 17px !important}
+	.banner-content h2{font-size: 50px; line-height: 65px;}
+	.banner-content{top: 40px;}
+}
+@media screen and (max-width:991px){
+	.headerbg{position: relative; background: rgba(0,25,76,0.8)}
+	.header-menu-align{display: flex; justify-content: flex-start; align-items: flex-start;}
+	button:focus{outline: none}
+	.clientcounter-content{flex-direction: column}
+	
+	/*.ourteam .carousel-item{min-height: 44rem}*/
+	.ourteam .slide-img{height: 270px}
+	.ourteam2 .carousel-item{min-height: 37rem}
+	.quotecontent{flex-direction: column; text-align: center;}
+	.title h2{font-size: 44px;}
+	.footer-menu ul{flex-direction: column;}
+	.footer-menu ul li{padding-bottom: 10px;}
+}
+@media screen and (max-width:900px){.bannerimg{height: 550px;}
+	.bannerimg img{object-fit: none; height: 550px;}}
+@media screen and (max-width:767px){
+	
+	.bannerimg{height: 450px;}
+	.bannerimg img{object-fit: none; height: 450px;}
+	.banner-content h2{font-size: 1.5rem; line-height: 2.5rem}
+	.whatwe-list li{width: 100% !important;}
+	.ourteam .carousel-item{min-height: 90rem}
+	.ourteam2 .carousel-item{min-height: 156rem}
+	.testimonial .carousel-item{min-height: 57rem;}
+	.ourworkmissionbg{flex-direction: column;}
+	.visionbg{border-right: 0; border-bottom:1px solid #e0e0e0}
+}
